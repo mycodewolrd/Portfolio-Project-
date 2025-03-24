@@ -7,25 +7,24 @@
 }
 
 html {
-    overflow: hidden;
     scroll-behavior: smooth;
 }
 
 body {
-    height: 100vh;
     background: #161513;
     color: #fff;
     font-family: 'outfit';
 }
 
-nav{
+nav {
     padding: 0 20px;
 }
+
 .connect-btn {
     padding: 15px 30px;
     border-radius: 50px;
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
-    font-size:medium;
+    font-size: medium;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
 }
@@ -34,14 +33,9 @@ nav{
     transform: scale(1.1);
 }
 
-.custom-container {
-    height: 100vh;
-    width: 100vw;
-}
-
 .section-padding {
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -50,6 +44,6 @@ nav{
     width: fit-content;
     padding: 15px 30px;
     border-radius: 50px;
-    font-size:medium;
+    font-size: medium;
     cursor: pointer;
 }
