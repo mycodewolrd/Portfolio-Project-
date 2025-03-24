@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import logo from "../../assets/logo.svg";
 const Navbar = ({ menuOpen, setMenuOpen }) => {
     useEffect(() => {
@@ -6,7 +6,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
     }, [menuOpen]);
     return (
         <>
-            <nav className="w-full fixed top-0 z-10">
+            <nav className="w-full fixed top-0 z-10 bg-[#161513]">
                 <div className="my-5 mx-[10%] flex justify-between md:justify-around items-center h-16">
                     <a href="">
                         <img src={logo} alt="logo" />
