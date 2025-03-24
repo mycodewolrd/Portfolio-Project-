@@ -1,1 +1,35 @@
 @import "tailwindcss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    background: #161513;
+    color: #fff;
+    font-family: 'outfit';
+}
+
+nav{
+    padding: 0 20px;
+}
+.connect-btn {
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size:medium;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.connect-btn:hover {
+    transform: scale(1.1);
+}
