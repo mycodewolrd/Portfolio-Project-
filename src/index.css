@@ -33,3 +33,23 @@ nav{
 .connect-btn:hover {
     transform: scale(1.1);
 }
+
+.custom-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.section-padding {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.btn {
+    width: fit-content;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size:medium;
+    cursor: pointer;
+}
